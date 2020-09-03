@@ -12,6 +12,7 @@ Collect the tution information for colleges/universities in USA.
 Extraction from Datasources
     List of colleges and universities dataset as csv file from Homeland Infrastructure Foundation-Level Data (HIFLD).
     College tution json data from api.data.gov
+    Web scraping of top rated national universities in US
     
 Transform
     Selection of relevant columns and cleaning
