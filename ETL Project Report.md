@@ -15,9 +15,13 @@ Extraction from Datasources
     Web scraping of top rated national universities in US
     
 Transform
-    Selection of relevant columns and cleaning
+    Jupyter Notebook is used to read the csv and json files.
+    From the csv file, the data regarding all the colleges were extracted and transformed into a dataframe.
+    From the json file, relevant data regarding admission to all the colleges were loaded into dataframe and cleaned. 
+    The dataset of top rated colleges were web scraped and transformed into pandas dataframe.
+    String to numeric convertion was done by rermoving the comma.
 
 Load
-    Load the data tables into SQLite database
+    Loaded the data tables into SQLite database
 
 
